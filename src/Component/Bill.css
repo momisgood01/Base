@@ -1,0 +1,50 @@
+.bill-page{
+    background-image: url(../Component/assets/shape-13.svg);
+    background-color: #F4F7FA;
+    position: relative;
+    
+    padding-top: 6rem;
+}
+
+.shape06{
+    position: absolute;
+    top: 10px;
+    margin-left: 140px;
+}
+
+.shape18{
+    /* position: absolute;
+    top: 400rem;
+    margin-left: 300rem;
+     */
+    /* z-index: -1; */
+    
+}
+
+.shape05{
+    position: absolute;
+    top: 10rem;
+    margin-left: 65rem;
+}
+
+.orange{
+ background-color: #F36A8D;
+ padding: 8px;
+ border-radius: 10px;
+ border: none;
+}
+
+.orange:hover{
+    background-color: blue;
+}
+
+.blue{
+    background-color: blue;
+    padding: 8px;
+ border-radius: 10px;
+ border: none;
+}
+
+.blue:hover{
+    background-color: #F36A8D;
+}

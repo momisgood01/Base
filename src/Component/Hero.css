@@ -1,0 +1,64 @@
+.m {
+  padding-left: 4rem;
+}
+
+
+
+.btn-rounded {
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0, 140, 255);
+  width: 200px;  
+  border-radius: 20px;
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+
+.hero-text p {
+  width: 80%;
+}
+
+.hero-text {
+  margin-top: 8rem;
+}
+
+.hero-woman {
+  background-color: #4e6bff;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  padding: 0;
+  top: -100px;
+  right: 0;
+  width: 630px;
+  height: 630px;
+}
+
+.hero-woman img {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .m {
+    padding-left: 10px;
+  }
+
+  .button-box {
+    flex-direction: column-reverse;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+   .hero-text p {
+  width: 100%;
+}
+  .hero-text {
+    width: 100%;
+  }
+}

@@ -1,0 +1,63 @@
+.whyus {
+  margin-top: 5rem;
+  position: relative;
+}
+
+.shape05 {
+  position: absolute;
+  right: 65rem;
+  top: -3rem;
+}
+.about03 {
+  width: 90%;
+}
+
+.about02 {
+  width: 90%;
+}
+
+.about01 {
+  width: 90%;
+}
+
+.whyus-text {
+  margin-top: 150px;
+}
+
+.whyus-text h5 {
+  color: blue;
+}
+
+.whyus-text p {
+  color: gray;
+}
+
+.whyus-text h1 {
+  font-size: 2.5rem;
+}
+.arrow-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: blue;
+}
+
+@media screen and (max-width: 600px) {
+  .shape-box {
+    display: none;
+  }
+  .whyus {
+    margin: 1;
+  }
+
+  .whyus-text {
+    margin-top: 1rem;
+  }
+
+  .whyus-text h1 {
+    font-size: 1.8rem;
+  }
+  .whyus-text p {
+    font-size: 17px;
+  }
+}

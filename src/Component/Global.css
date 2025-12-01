@@ -1,0 +1,119 @@
+
+    /* Bill */
+
+.global{
+    background-image: url(../Component/assets/shape-08.svg);
+    background-color: #F4F7FA;
+    position: relative;
+    padding: 7rem;
+    height: 50vh;
+    margin-bottom: 5rem;
+    
+}
+
+.shape07{
+    position: absolute;
+    left: 60rem;
+    width: 7rem;
+    
+}
+
+.shape14{
+   position: absolute;
+    left: 10rem;
+    top: -2rem;
+    
+}
+
+.shape11{
+    position: absolute; 
+    width: 3rem;
+    left: 2rem;
+    top: 14rem;
+}
+
+/* From Uiverse.io by gharsh11032000 */ 
+/* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 1.7em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background:rgb(79,108,255);
+  border-radius: 50px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.2em;
+  width: 1.2em;
+  right: 0.3em;
+  bottom: 0.3em;
+  transform: translateX(150%);
+  background-color: #F4F7FA;
+  border-radius: inherit;
+  transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.slider:after {
+  position: absolute;
+  content: "";
+   height: 1.2em;
+  width: 1.2em;
+  left: 0.3em;
+  bottom: 0.3em;
+  background-color: #F4F7FA;
+  border-radius: inherit;
+  transition: all 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.switch input:focus + .slider {
+  box-shadow: 0 0 1px #59d102;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateY(0);
+}
+
+.switch input:checked + .slider::after {
+  transform: translateX(-150%);
+}
+
+ .spin {
+  animation: spin 6s linear infinite;
+}
+
+@media screen and (max-width: 600px) {
+  .shape07{
+    position: absolute;
+    left: 0;    
+}
+
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

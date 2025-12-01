@@ -1,0 +1,75 @@
+.contact {
+  background-image: url(../Component/assets/shape-13.svg);
+  background-color: #F4F7FA;
+  position: relative;
+}
+.text{
+    width: 50%;
+}
+/* Left side: Contact info */
+.cc {
+  width: 30%;
+}
+
+/* Right side: Form */
+.mm {
+  width: 70%;
+}
+
+/* Input fields */
+.n {
+  width: 20rem;
+  border: gray 1px solid;
+  outline-color: blue;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Textarea — make sure it fills width nicely */
+.textarea {
+  width: 100%;
+  min-height: 150px;
+  resize: vertical;
+  border: 1px solid gray;
+  outline-color: blue;
+  box-sizing: border-box;
+}
+
+/* ✅ Mobile & Tablet Responsive */
+@media (max-width: 992px) {
+  .cc,
+  .mm {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem !important;
+  }
+
+  .n {
+    width: 100%;
+  }
+
+   .text{
+    width: 100%;
+}
+
+  
+}
+
+@media (max-width: 576px) {
+  .contact h1 {
+    font-size: 1.5rem;
+  }
+
+  .text{
+    width: 100%;
+}
+
+  .contact p {
+    font-size: 0.9rem;
+  }
+
+  .n,
+  .textarea {
+    width: 100%;
+  }
+}

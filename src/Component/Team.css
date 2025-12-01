@@ -1,0 +1,91 @@
+.team-page{
+    background-image: url(../Component/assets/shape-08.svg);
+    background-color: #F4F7FA;
+    position: relative;
+    height: 70vh;
+}
+
+.shape10{
+    position: absolute;
+    left: 18rem;
+    margin-top: 4rem;
+}
+.shape11{
+    position: absolute;
+    right: 17rem;
+    top: 0rem;
+    
+}
+
+.shape09{
+   position: absolute;
+    left: 3rem;
+    top: 20rem;
+   
+}
+
+.team1, .team2, .team3 img{
+    text-align: center;
+    width: 20rem;
+}
+
+
+
+.team-page h1{
+    width: 40%;
+    padding-top: 3rem;
+    
+}
+
+.team-p{
+    width: 40%;
+    color: gray;
+}
+
+.team-team{
+    position: absolute;
+    top: 23rem; 
+}
+
+
+ @media screen and (max-width: 600px) {
+    .team-team{
+    position: absolute;
+    top: 21rem;  
+}
+
+.team-p {
+    width: 100%;
+   
+}
+.team-page h1{
+    width: 100%;
+    padding-top: 5rem;
+}
+.shape10{
+    position: absolute;
+    left: 1rem;
+    margin-top: 1rem;
+}
+
+.shape11{
+    position: absolute;
+    right: 3rem;
+    top: 18rem;
+    
+}
+ }
+
+ .spin {
+  animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
