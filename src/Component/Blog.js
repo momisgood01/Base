@@ -8,7 +8,7 @@ import { CiCalendarDate } from "react-icons/ci";
 function Blog() {
   return (
     <section>
-      <div className='text-center m-auto mb-5 text'>
+      <div className='text-center m-auto mb-5 text1'>
         <h1 className='fw-bold fs-1 mb-3'>Latest Blogs & News</h1>
         <p className='text-secondary'> It is a long established fact that a reader will be distracted by the readable content of a page
              when looking at its layout. The point of using.</p>

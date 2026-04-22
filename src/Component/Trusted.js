@@ -7,8 +7,8 @@ import "./Trusted.css"
 const Trusted = () => {
   return (
     <section className=' '>
-        <div className='text-center text m-auto my-5'>
-            <h1 className='fw-bold  my-3'>Trusted by Global Brands</h1>
+        <div className='text-center text1 m-auto my-5'>
+            <h1 className='fw-bold my-3'>Trusted by Global Brands</h1>
             <p className='text-secondary  mb-5'>It is a long established fact that a reader will be distracted by the 
               readable content of a page when looking at its layout. The point of using.</p>
         </div>

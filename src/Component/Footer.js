@@ -73,7 +73,7 @@ function Footer() {
           </div>
           <div className="col-12 col-md-6 text-md-end">
             <p className="mb-0">
-              © 2025 Base. All rights reserved. Distributed by ThemeWagon
+              © 2025 Base. created by Raji sulaion
             </p>
           </div>
         </div>

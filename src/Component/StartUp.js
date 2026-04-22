@@ -18,7 +18,7 @@ function StartUp() {
 
           {/* Button Column */}
           <div className="col-12 col-md-4 text-md-end text-center">
-            <button className="btn btn-lg btn-danger rounded">
+            <button className="btn btn-lg bg-white text-dark rounded">
               Get started now
             </button>
           </div>
